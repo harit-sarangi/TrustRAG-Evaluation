@@ -2,6 +2,7 @@
 *(Built upon the AI Lab RAG Baseline authored by Oleh Astappiev)*
 
 Author: Harit Sarangi
+
 Mentor: Oleh Astappiev
 
 This repository contains a reference RAG implementation, heavily modified to evaluate the **TrustRAG** architecture—a pipeline designed to reduce hallucinations in Retrieval-Augmented Generation by calculating an internal semantic confidence score via multi-sample verification and token probability analysis.
@@ -60,7 +61,7 @@ python run.py
 # or on cluster with GPU
 srun --pty python run.py
 ```
-## sing main.sh / main.py directly
+## Using main.sh / main.py directly
 You can also run the script directly. But you need to specify all the parameters as arguments.
 For a basic dev run:
 ```bash
