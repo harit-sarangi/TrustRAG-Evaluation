@@ -1,0 +1,38 @@
+# SECURITY & SECRETS
+
+.env
+
+# EXECUTION LOGS & OUTPUTS
+
+*.out
+*.err
+*.log
+output/
+
+# DATASETS
+
+# Ignore everything inside datasets, but allow specific evaluation files
+datasets/*
+!datasets/dev.jsonl
+!datasets/comp200.jsonl
+
+# PYTHON CORE
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# VIRTUAL ENVIRONMENTS
+
+venv/
+.venv/
+env/
+raglab/
+
+# IDE & OS CLUTTER
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
