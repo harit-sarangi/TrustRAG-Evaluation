@@ -7,7 +7,6 @@
 *.out
 *.err
 *.log
-output/
 
 # DATASETS
 

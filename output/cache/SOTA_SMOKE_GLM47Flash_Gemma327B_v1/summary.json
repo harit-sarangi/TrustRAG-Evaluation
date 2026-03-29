@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "dataset_path": "datasets/comp200.jsonl",
+        "limit": 5,
+        "skip": -1,
+        "random": false,
+        "ret_backend": "opensearch",
+        "ret_method": "top_k",
+        "ret_top_k": 10,
+        "ret_rephrase": false,
+        "rerank_backend": "local",
+        "rerank_model": "BAAI/bge-reranker-v2-m3",
+        "rerank_top_k": 3,
+        "invert": false,
+        "query_backend": "openai",
+        "query_method": "trustrag",
+        "query_model": "glm-4.7-flash:latest",
+        "eval_backend": "openai",
+        "eval_model": "gemma3:27b-it-fp16",
+        "retry_times": 5,
+        "repeat_times": 1,
+        "seed": 1774531840,
+        "log_name": "SOTA_SMOKE_GLM47Flash_Gemma327B_v1",
+        "verbose": true,
+        "very_verbose": false
+    },
+    "time_average": {
+        "retrieval": 0.5091827287338674,
+        "reranking": 0.6540426990017295,
+        "confidence": 0.8666666666666666,
+        "rag_query": 1045.4480706864967,
+        "rag_total": 1046.6816746286117
+    },
+    "time_total": {
+        "retrieval": 2.545913643669337,
+        "reranking": 3.2702134950086474,
+        "confidence": 4.333333333333333,
+        "rag_query": 5227.240353432484,
+        "rag_total": 5233.408373143058
+    },
+    "total_process_time_seconds": 5399.918643682264,
+    "evaluation_summary": {
+        "correctness": {
+            "counts": {
+                "0": 1,
+                "2": 4
+            },
+            "distribution_percentage": {
+                "0": "20.00",
+                "2": "80.00"
+            },
+            "average": 1.6
+        },
+        "faithfulness": {
+            "counts": {
+                "0": 1,
+                "1": 4
+            },
+            "distribution_percentage": {
+                "0": "20.00",
+                "1": "80.00"
+            },
+            "average": 0.8
+        }
+    }
+}

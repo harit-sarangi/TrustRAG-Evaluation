@@ -1,0 +1,170 @@
+[
+    {
+        "correctness": 10,
+        "faithfulness": 10
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 0,
+        "faithfulness": 0
+    },
+    {
+        "correctness": -1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": -1,
+        "faithfulness": -1
+    },
+    {
+        "correctness": 1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 10,
+        "faithfulness": 10
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 1,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": -1,
+        "faithfulness": -1
+    },
+    {
+        "correctness": null,
+        "faithfulness": null
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": -1,
+        "faithfulness": -1
+    },
+    {
+        "correctness": 0,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 0,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 0,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 5,
+        "faithfulness": 5
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    },
+    {
+        "correctness": 0,
+        "faithfulness": 0
+    },
+    {
+        "correctness": 2,
+        "faithfulness": 1
+    }
+]

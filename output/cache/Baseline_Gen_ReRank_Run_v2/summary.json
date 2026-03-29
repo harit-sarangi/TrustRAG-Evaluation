@@ -1,0 +1,68 @@
+{
+    "parameters": {
+        "dataset_path": "datasets/comp200.jsonl",
+        "limit": 200,
+        "skip": -1,
+        "random": false,
+        "ret_backend": "opensearch",
+        "ret_method": "top_k",
+        "ret_top_k": 10,
+        "ret_rephrase": false,
+        "rerank_backend": "none",
+        "rerank_model": null,
+        "rerank_top_k": 5,
+        "invert": false,
+        "query_backend": "none",
+        "query_method": "instruct",
+        "query_model": "falcon3:7b",
+        "eval_backend": "openai",
+        "eval_model": "gemma3:27b-it-fp16",
+        "retry_times": 5,
+        "repeat_times": 1,
+        "seed": 1774498375,
+        "log_name": "Baseline_Gen_ReRank_Run_v2",
+        "verbose": false,
+        "very_verbose": false
+    },
+    "time_average": null,
+    "time_total": null,
+    "total_process_time_seconds": 2867.3255528450027,
+    "evaluation_summary": {
+        "correctness": {
+            "counts": {
+                "-1": 8,
+                "0": 31,
+                "1": 86,
+                "2": 71,
+                "5": 1,
+                "None": 3
+            },
+            "distribution_percentage": {
+                "-1": "4.00",
+                "0": "15.50",
+                "1": "43.00",
+                "2": "35.50",
+                "5": "0.50",
+                "None": "1.50"
+            },
+            "average": 1.1421319796954315
+        },
+        "faithfulness": {
+            "counts": {
+                "-1": 11,
+                "0": 88,
+                "1": 97,
+                "5": 1,
+                "None": 3
+            },
+            "distribution_percentage": {
+                "-1": "5.50",
+                "0": "44.00",
+                "1": "48.50",
+                "5": "0.50",
+                "None": "1.50"
+            },
+            "average": 0.4619289340101523
+        }
+    }
+}
