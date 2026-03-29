@@ -1,5 +1,5 @@
 # TrustRAG: Multi-Sample Semantic Verification and Confidence Scoring
-*(Built upon the AI Lab RAG Baseline authored by Oleh Astappiev)*
+*(Built upon the AI Lab RAG Baseline authored by Oleh Astappiev/L3S - https://git.l3s.uni-hannover.de/astappiev/labrag)*
 
 Author: Harit Sarangi
 
